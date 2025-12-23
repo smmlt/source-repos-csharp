@@ -1,0 +1,14 @@
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\рядки1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\рядки1.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\рядки1.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\рядки1.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\рядки1\рядки1\bin\Debug\net8.0\рядки1.exe
+C:\Users\Bohdan\source\repos\рядки1\рядки1\bin\Debug\net8.0\рядки1.deps.json
+C:\Users\Bohdan\source\repos\рядки1\рядки1\bin\Debug\net8.0\рядки1.runtimeconfig.json
+C:\Users\Bohdan\source\repos\рядки1\рядки1\bin\Debug\net8.0\рядки1.dll
+C:\Users\Bohdan\source\repos\рядки1\рядки1\bin\Debug\net8.0\рядки1.pdb
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\рядки1.dll
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\refint\рядки1.dll
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\рядки1.pdb
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\рядки1.genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\рядки1\рядки1\obj\Debug\net8.0\ref\рядки1.dll

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bohdan\\source\\repos\\09.10_cw\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{570F8FB1-46E8-4DAF-BA14-CC438C1C1DB1}|09.10_cw\\09.10_cw.csproj|c:\\users\\bohdan\\source\\repos\\09.10_cw\\09.10_cw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{570F8FB1-46E8-4DAF-BA14-CC438C1C1DB1}|09.10_cw\\09.10_cw.csproj|solutionrelative:09.10_cw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\09.10_cw\\09.10_cw\\Program.cs",
+              "RelativeDocumentMoniker": "09.10_cw\\Program.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\09.10_cw\\09.10_cw\\Program.cs",
+              "RelativeToolTip": "09.10_cw\\Program.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEoAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:00:31.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

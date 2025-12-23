@@ -1,0 +1,55 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Бічне меню</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    #sidebar {
+      width: 60px;
+      height: 100vh;
+      background: #444;
+      color: white;
+      transition: width 0.3s;
+      overflow: hidden;
+    }
+
+    #sidebar.expanded {
+      width: 200px;
+    }
+
+    #menuTitle {
+      padding: 10px;
+      cursor: pointer;
+      background: #444;
+      font-weight: bold;
+    }
+
+    .menuItem {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="sidebar">
+  <div id="menuTitle">MENU</div>
+  <div class="menuItem">Edit</div>
+  <div class="menuItem">Favorites</div>
+  <div class="menuItem">History</div>
+  <div class="menuItem">Security</div>
+  <div class="menuItem">Settings</div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $('#menuTitle').click(function () {
+      $('#sidebar').toggleClass('expanded');
+    });
+  });
+</script>
+
+</body>
+</html>

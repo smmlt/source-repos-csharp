@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bohdan\\source\\repos\\POST-Server_26.02.2025(CW)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6721C89D-394C-404C-B6CA-4E1412B43EF6}|POST-Server_26.02.2025(CW)\\POST-Server_26.02.2025(CW).csproj|c:\\users\\bohdan\\source\\repos\\post-server_26.02.2025(cw)\\post-server_26.02.2025(cw)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6721C89D-394C-404C-B6CA-4E1412B43EF6}|POST-Server_26.02.2025(CW)\\POST-Server_26.02.2025(CW).csproj|solutionrelative:post-server_26.02.2025(cw)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\POST-Server_26.02.2025(CW)\\POST-Server_26.02.2025(CW)\\Program.cs",
+              "RelativeDocumentMoniker": "POST-Server_26.02.2025(CW)\\Program.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\POST-Server_26.02.2025(CW)\\POST-Server_26.02.2025(CW)\\Program.cs*",
+              "RelativeToolTip": "POST-Server_26.02.2025(CW)\\Program.cs*",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAmwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:53:05.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Добавлено расстояние между полями */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Trainer</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        #game {
+            position: relative;
+            width: 80vw;
+            height: 80vh;
+            border: 2px solid #000;
+            overflow: hidden;
+            background-color: #fff;
+            display: none;
+        }
+
+        .target {
+            position: absolute;
+            border-radius: 50%;
+            background-color: hsl(0, 100%, 50%);
+            animation: fadeIn 0.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                transform: scale(0);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        #scoreboard {
+            margin-bottom: 20px;
+        }
+
+        #controls {
+            margin-bottom: 20px;
+        }
+
+        button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="scoreboard">
+        <h2>Счет: <span id="score">0</span></h2>
+        <h2>Лучший счет: <span id="bestScore">0</span></h2>
+        <h2>Время: <span id="timer">30</span> сек</h2>
+    </div>
+    <div id="controls">
+        <button id="startButton">Играть</button>
+        <button id="stopButton" disabled>Стоп</button>
+    </div>
+    <div id="game"></div>
+    <script>
+        const game = document.getElementById('game');
+        const scoreElement = document.getElementById('score');
+        const bestScoreElement = document.getElementById('bestScore');
+        const timerElement = document.getElementById('timer');
+        const startButton = document.getElementById('startButton');
+        const stopButton = document.getElementById('stopButton');
+
+        let score = 0;
+        let bestScore = localStorage.getItem('bestScore') || 0;
+        let timer = 30;
+        let gameInterval;
+        let timerInterval;
+
+        bestScoreElement.textContent = bestScore;
+
+        function createTarget() {
+            const target = document.createElement('div');
+            target.classList.add('target');
+            const size = Math.random() * 30 + 20;
+            target.style.width = `${size}px`;
+            target.style.height = `${size}px`;
+            target.style.top = `${Math.random() * (game.clientHeight - size)}px`;
+            target.style.left = `${Math.random() * (game.clientWidth - size)}px`;
+            target.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+
+            target.addEventListener('click', () => {
+                score++;
+                scoreElement.textContent = score;
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestScoreElement.textContent = bestScore;
+                    localStorage.setItem('bestScore', bestScore);
+                }
+                target.remove();
+                createTarget();
+            });
+
+            game.appendChild(target);
+
+            setTimeout(() => {
+                if (game.contains(target)) {
+                    target.remove();
+                    createTarget();
+                }
+            }, 1000);
+        }
+
+        function startGame() {
+            score = 0;
+            timer = 30;
+            scoreElement.textContent = score;
+            timerElement.textContent = timer;
+            game.style.display = 'block';
+            startButton.disabled = true;
+            stopButton.disabled = false;
+
+            createTarget();
+
+            timerInterval = setInterval(() => {
+                timer--;
+                timerElement.textContent = timer;
+                if (timer <= 0) {
+                    stopGame();
+                }
+            }, 1000);
+        }
+
+        function stopGame() {
+            clearInterval(timerInterval);
+            game.innerHTML = '';
+            game.style.display = 'none';
+            startButton.disabled = false;
+            stopButton.disabled = true;
+        }
+
+        startButton.addEventListener('click', startGame);
+        stopButton.addEventListener('click', stopGame);
+    </script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<html>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        background: gainsboro;
+    }
+
+    input,
+    select,
+    button {
+        margin: 5px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    #results {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #pagination {
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <h1>Search for movies and series 🎬🍿</h1>
+    <input type="text" id="searchText" placeholder="Enter a name">
+    <select id="typeSelect">
+        <option value="Movie">Film</option>
+        <option value="Series">Series</option>
+        <option value="Episode">episode</option>
+    </select>
+    <button onclick="search()">Search</button>
+
+    <div id="details"></div>
+    <div id="results"></div>
+    <div id="pagination" style="display: flex;">
+        <button onclick="prevPage()">◀</button>
+        <div id="pages" style="display: flex;"></div>
+        <button onclick="nextPage()">▶</button>
+    </div>
+</body>
+
+<script>
+    const API = '9bd4e80'
+    let page = 1, total = 1, title = '', type = ''
+
+    async function getResult() {
+        const URL = `https://www.omdbapi.com/?apikey=${API}&s=${title}&type=${type}&page=${page}`
+
+        try {
+            const response = await fetch(URL)
+            const data = await response.json()
+
+            if (data.Response === "False") {
+                document.getElementById('results').innerHTML = `<h2>🎥 Movie not found!</h2>`
+                document.getElementById('pages').innerHTML = ''
+                return
+            }
+
+            total = Math.ceil(+data.totalResults / 10)
+            document.getElementById('pages').innerHTML = ''
+
+            const buttons = GetButtons()
+            buttons.forEach(btn => document.getElementById('pages').appendChild(btn))
+
+            showResult(data.Search)
+        } catch (error) {
+            console.error("Error:", error)
+        }
+    }
+
+    function GetButtons() {
+        let buttons = []
+
+        const first = document.createElement("button")
+        first.textContent = 1
+        first.style.backgroundColor = "yellow"
+        first.addEventListener("click", () => { page = 1; getResult() })
+        buttons.push(first)
+
+        const current = document.createElement("button")
+        current.textContent = page
+        current.style.backgroundColor = "lightblue"
+        buttons.push(current)
+
+        let pagesToAdd = 5
+        if (total - page < pagesToAdd) {
+            pagesToAdd = total - page
+        }
+
+        for (let i = page; i < page + pagesToAdd; i++) {
+            const b = document.createElement("button")
+            b.textContent = i + 1
+            const btnPage = i + 1
+            b.addEventListener("click", () => { page = btnPage; getResult() })
+            buttons.push(b)
+        }
+
+        const last = document.createElement("button")
+        last.textContent = total
+        last.style.backgroundColor = "yellow"
+        last.addEventListener("click", () => { page = total; getResult() })
+        buttons.push(last)
+
+        return buttons
+    }
+
+    function showResult(movies) {
+        const res = document.getElementById('results')
+        const details = document.getElementById('details')
+        res.innerHTML = ''
+        details.innerHTML = ''
+
+        movies.forEach(m => {
+            const card = document.createElement('div')
+            card.className = 'card'
+            card.style = 'border: 1px solid #000; padding: 10px; background: white; width: 250px'
+
+            card.innerHTML = `
+                <img src="${m.Poster === 'N/A' ? 'https://www.nbcstore.com/cdn/shop/files/get-out-sbs-desktop_1080x.jpg?v=1695909026' : m.Poster}" style="width:100%">
+                <h2>${m.Title}</h2>
+                <p><strong>Year:</strong> ${m.Year}</p>
+                <p><strong>Type:</strong> ${m.Type}</p>
+            `
+
+            const button = document.createElement("button")
+            button.textContent = "Деталі"
+            button.addEventListener("click", () => showDetails(m.imdbID))
+
+            card.appendChild(button)
+            res.appendChild(card)
+        })
+    }
+
+    async function showDetails(imdbID) {
+        const URL = `https://www.omdbapi.com/?apikey=${API}&i=${imdbID}&plot=full`
+
+        try {
+            const response = await fetch(URL)
+            const data = await response.json()
+
+            const details = document.getElementById('details')
+            details.innerHTML = `
+                <div style="margin-top:20px; padding: 10px; background: lightyellow; border: 1px solid black;">
+                    <h2>${data.Title}</h2>
+                    <img src="${data.Poster === 'N/A' ? 'https://www.nbcstore.com/cdn/shop/products/SHREK-SS-63-MF1.jpg' : data.Poster}" style="width:150px">
+                    <p><strong>Year:</strong> ${data.Year}</p>
+                    <p><strong>Genre:</strong> ${data.Genre}</p>
+                    <p><strong>Director:</strong> ${data.Director}</p>
+                    <p><strong>Actors:</strong> ${data.Actors}</p>
+                    <p><strong>Plot:</strong> ${data.Plot}</p>
+                    <button onclick="document.getElementById('details').innerHTML = ''">Закрити</button>
+                </div>
+            `
+            details.scrollIntoView({ behavior: 'smooth' })
+        } catch (err) {
+            console.error("Details error:", err)
+        }
+    }
+
+    function nextPage() {
+        if (page < total) {
+            page++
+            getResult()
+        }
+    }
+
+    function prevPage() {
+        if (page > 1) {
+            page--
+            getResult()
+        }
+    }
+
+    function search() {
+        title = document.getElementById('searchText').value
+        type = document.getElementById('typeSelect').value
+        if (!title) return
+        page = 1
+        getResult()
+    }
+</script>
+
+</html>

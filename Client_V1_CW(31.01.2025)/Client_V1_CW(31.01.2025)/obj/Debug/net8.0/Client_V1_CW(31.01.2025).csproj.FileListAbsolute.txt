@@ -1,0 +1,14 @@
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\bin\Debug\net8.0\Client_V1_CW(31.01.2025).exe
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\bin\Debug\net8.0\Client_V1_CW(31.01.2025).deps.json
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\bin\Debug\net8.0\Client_V1_CW(31.01.2025).runtimeconfig.json
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\bin\Debug\net8.0\Client_V1_CW(31.01.2025).dll
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\bin\Debug\net8.0\Client_V1_CW(31.01.2025).pdb
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\Client_V1_CW(31.01.2025).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\Client_V1_CW(31.01.2025).AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\Client_V1_CW(31.01.2025).AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\Client_V1_CW(31.01.2025).csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\Client_V1_CW(31.01.2025).dll
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\refint\Client_V1_CW(31.01.2025).dll
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\Client_V1_CW(31.01.2025).pdb
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\Client_V1_CW(31.01.2025).genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\Client_V1_CW(31.01.2025)\Client_V1_CW(31.01.2025)\obj\Debug\net8.0\ref\Client_V1_CW(31.01.2025).dll

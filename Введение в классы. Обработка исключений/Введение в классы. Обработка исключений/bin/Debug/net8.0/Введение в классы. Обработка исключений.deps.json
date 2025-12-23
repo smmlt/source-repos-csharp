@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Введение в классы. Обработка исключений/1.0.0": {
+        "runtime": {
+          "Введение в классы. Обработка исключений.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Введение в классы. Обработка исключений/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

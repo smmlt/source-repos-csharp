@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <style>
+          body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+          }
+          canvas {
+            border: 2px solid black;
+            background: white;
+          }
+          .controls {
+            margin-top: 10px;
+            text-align: center;
+          }
+        </style>
+      </head>
+    <body>
+        <canvas id="figure" width="500" height="400"></canvas>
+
+        <div class="controls">
+        <button onclick="save()">Save</button>
+        <input id="color" type="color"><br><br>
+
+        <input type="range" id="slider" min="1" max="100" value="20" step="1" oninput="output.value = slider.value">
+        <output id="output">20</output><br><br>
+
+        <select id="figures">
+            <option value="line">Line</option>
+            <option value="triangle">Triangle</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="circle">Circle</option>
+        </select>
+        <label><input type="checkbox" id="useFigures">Use figures</label>
+        </div>
+        
+    </body>
+    <script>
+        var f = document.getElementById('figure')
+        var context = f.getContext('2d')
+        var drawing = false
+
+        var startPosX
+        var startPosY
+        var endPosX
+        var endPosY
+
+        f.addEventListener('mousedown', (e) => {
+            drawing = true
+            context.beginPath()
+            context.moveTo(e.offsetX, e.offsetY)
+
+            if(useFigures.checked){
+                startPosX = e.offsetX
+                startPosY = e.offsetY
+            }
+        })
+
+        f.addEventListener('mouseup', (e) => {
+            drawing = false
+            context.closePath()
+
+            if(useFigures.checked){
+                endPosX = e.offsetX
+                endPosY = e.offsetY
+
+                if(figures.value == "line"){
+                    context.moveTo(startPosX, startPosY)
+                    context.lineTo(endPosX, endPosY)
+                }
+                else if(figures.value == "triangle"){
+                    context.moveTo((startPosX + endPosX) / 2, startPosY);
+                    context.lineTo(startPosX, endPosY);
+                    context.lineTo(endPosX, endPosY);
+                    context.closePath();
+                }
+                else if(figures.value == "rectangle"){
+                    context.rect(startPosX, startPosY, endPosX - startPosX, endPosY - startPosY)
+                }
+                else{
+                    centerX = (startPosX + endPosX) / 2;
+                    centerY = (startPosY + endPosY) / 2;
+
+                    dx = endPosX - startPosX;
+                    dy = endPosY - startPosY;
+                    radius = Math.sqrt((dx / 2) ** 2 + (dy / 2) ** 2);
+
+                    context.beginPath();
+                    context.arc(centerX, centerY, radius, 0, 2 * Math.PI)
+                }
+                context.stroke()
+            }
+        })
+
+        f.addEventListener('mousemove', (e) => {
+            if (drawing) {
+                context.strokeStyle = color.value
+                context.lineWidth = slider.value
+
+                if(!useFigures.checked){
+                    context.lineCap = 'round'
+                    context.lineTo(e.offsetX, e.offsetY)
+                    context.stroke()
+                }
+            }
+        })
+
+        function save() {
+        var a = document.createElement('a')
+        a.download = 'myCanvas.png'
+        a.href = f.toDataURL('image/png')
+        a.click()
+}
+    </script>
+</html>

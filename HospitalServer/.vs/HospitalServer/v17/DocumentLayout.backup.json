@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|c:\\users\\bohdan\\source\\repos\\hospitalserver\\hospitalserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|solutionrelative:hospitalserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|c:\\users\\bohdan\\source\\repos\\hospitalserver\\hospitalserver\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|solutionrelative:hospitalserver\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|c:\\users\\bohdan\\source\\repos\\hospitalserver\\hospitalserver\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|solutionrelative:hospitalserver\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|c:\\users\\bohdan\\source\\repos\\hospitalserver\\hospitalserver\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|solutionrelative:hospitalserver\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|c:\\users\\bohdan\\source\\repos\\hospitalserver\\hospitalserver\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|solutionrelative:hospitalserver\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|c:\\users\\bohdan\\source\\repos\\hospitalserver\\hospitalserver\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1AE32D35-43F4-489D-91DC-773B2F6DC340}|HospitalServer\\HospitalServer.csproj|solutionrelative:hospitalserver\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalServer\\Program.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\Program.cs",
+              "RelativeToolTip": "HospitalServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:33:24.216Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\style.css",
+              "RelativeDocumentMoniker": "HospitalServer\\style.css",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\style.css",
+              "RelativeToolTip": "HospitalServer\\style.css",
+              "ViewState": "AgIAACkAAAAAAAAAAABBwDsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-02T21:17:59.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\index.html",
+              "RelativeDocumentMoniker": "HospitalServer\\index.html",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\index.html",
+              "RelativeToolTip": "HospitalServer\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-02T21:16:34.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\Appointment.cs",
+              "RelativeDocumentMoniker": "HospitalServer\\Appointment.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\Appointment.cs",
+              "RelativeToolTip": "HospitalServer\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:58:58.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\Patient.cs",
+              "RelativeDocumentMoniker": "HospitalServer\\Patient.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\Patient.cs",
+              "RelativeToolTip": "HospitalServer\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:58:00.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HospitalContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\HospitalContext.cs",
+              "RelativeDocumentMoniker": "HospitalServer\\HospitalContext.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\HospitalServer\\HospitalServer\\HospitalContext.cs",
+              "RelativeToolTip": "HospitalServer\\HospitalContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:41:02.225Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

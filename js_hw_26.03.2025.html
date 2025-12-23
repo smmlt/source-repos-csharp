@@ -1,0 +1,75 @@
+<html>
+    <body>
+        <h1>Abracadabra</h1>
+    </body>
+    <script>
+        //1
+        let name = prompt("Enter your name: ");
+
+        alert("Hi " + name + "!");
+
+        //2
+        const birthYear = +prompt("Enter your birth year: ");
+        const currentYear = 2025;
+
+        if (birthYear > 1900 && birthYear < currentYear) {
+            alert("You are about " + (currentYear - birthYear) + " years old");
+        } else {
+            alert("Please enter a valid birth year");
+            
+        }
+
+        //3
+        let side = +prompt("Enter the length of the square's side: ");
+
+        alert("Perimeter: " + side * 4);
+
+        //4
+        let radius = +prompt("Enter the radius of the circle: ");
+
+        alert("Circle area: " + (Math.PI * radius * radius));
+
+        //5
+        let km = +prompt("Enter the distance between cities (km): ");
+        let hours = +prompt("Enter the time you want to reach your destination (in hours): ");
+
+        alert("You need to travel at a speed of: " + (km / hours).toFixed(2) + " km/h");
+
+        //6
+        const usdToEur = 0.92;
+        let usd = +prompt("Enter the amount in dollars: ");
+
+        alert("After conversion, you will have " + (usd * usdToEur).toFixed(2) + " euros");
+
+        //7
+        const fileSize = 820;
+        let flashSize = +prompt("Enter the USB flash drive size (GB): ");
+
+        alert("The flash drive can hold " + Math.floor(flashSize * 1024 / fileSize) +
+             " files of 820 MB each"
+        );
+
+        //8
+        let balance = +prompt("Enter the amount of money in your wallet: ");
+        let chocolatePrice = +prompt("Enter the price of one chocolate bar: ");
+
+        let chocolateCount = Math.floor(balance / chocolatePrice);
+        let remnant = balance - (chocolateCount * chocolatePrice);
+
+        alert("You can buy " + 
+            chocolateCount + " chocolate bars, and you will have " + 
+            remnant + " left"
+        );
+
+        //9
+        let num = prompt("Enter a three-digit number:");
+        let reversedNum = num.split('').reverse().join('');
+
+        alert("The number reversed: " + reversedNum);
+
+        //10
+        let num2 = +prompt("Enter a number: ");
+        alert("The number " + num2 + " is " + (num2 % 2 === 0 ? "even" : "odd"));
+
+    </script>
+</html>

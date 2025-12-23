@@ -1,0 +1,14 @@
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\bin\Debug\net8.0\Массивы и строки.exe
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\bin\Debug\net8.0\Массивы и строки.deps.json
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\bin\Debug\net8.0\Массивы и строки.runtimeconfig.json
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\bin\Debug\net8.0\Массивы и строки.dll
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\bin\Debug\net8.0\Массивы и строки.pdb
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\Массивы и строки.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\Массивы и строки.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\Массивы и строки.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\Массивы и строки.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\Массивы и строки.dll
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\refint\Массивы и строки.dll
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\Массивы и строки.pdb
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\Массивы и строки.genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\Массивы и строки\Массивы и строки\obj\Debug\net8.0\ref\Массивы и строки.dll

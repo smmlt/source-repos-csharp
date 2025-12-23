@@ -1,0 +1,5 @@
+C:\Users\Bohdan\source\repos\HospitalServer\HospitalServer\obj\Debug\net8.0\HospitalServer.csproj.AssemblyReference.cache
+C:\Users\Bohdan\source\repos\HospitalServer\HospitalServer\obj\Debug\net8.0\HospitalServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\HospitalServer\HospitalServer\obj\Debug\net8.0\HospitalServer.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\HospitalServer\HospitalServer\obj\Debug\net8.0\HospitalServer.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\HospitalServer\HospitalServer\obj\Debug\net8.0\HospitalServer.csproj.CoreCompileInputs.cache

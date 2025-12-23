@@ -1,0 +1,16 @@
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\bin\Debug\net8.0-windows\17.01.2025_cw.exe
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\bin\Debug\net8.0-windows\17.01.2025_cw.deps.json
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\bin\Debug\net8.0-windows\17.01.2025_cw.runtimeconfig.json
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\bin\Debug\net8.0-windows\17.01.2025_cw.dll
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\bin\Debug\net8.0-windows\17.01.2025_cw.pdb
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\_17._01._2025_cw.Form1.resources
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\17.01.2025_cw.csproj.GenerateResource.cache
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\17.01.2025_cw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\17.01.2025_cw.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\17.01.2025_cw.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\17.01.2025_cw.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\17.01.2025_cw.dll
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\refint\17.01.2025_cw.dll
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\17.01.2025_cw.pdb
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\17.01.2025_cw.genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\17.01.2025_cw\17.01.2025_cw\obj\Debug\net8.0-windows\ref\17.01.2025_cw.dll

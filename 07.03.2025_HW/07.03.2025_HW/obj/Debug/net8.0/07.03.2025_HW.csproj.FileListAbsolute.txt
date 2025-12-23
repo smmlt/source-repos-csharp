@@ -1,0 +1,5 @@
+C:\Users\Bohdan\source\repos\07.03.2025_HW\07.03.2025_HW\obj\Debug\net8.0\07.03.2025_HW.csproj.AssemblyReference.cache
+C:\Users\Bohdan\source\repos\07.03.2025_HW\07.03.2025_HW\obj\Debug\net8.0\07.03.2025_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\07.03.2025_HW\07.03.2025_HW\obj\Debug\net8.0\07.03.2025_HW.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\07.03.2025_HW\07.03.2025_HW\obj\Debug\net8.0\07.03.2025_HW.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\07.03.2025_HW\07.03.2025_HW\obj\Debug\net8.0\07.03.2025_HW.csproj.CoreCompileInputs.cache

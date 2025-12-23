@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|c:\\users\\bohdan\\source\\repos\\13.12-27.12.2024_hw\\13.12-27.12.2024_hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|solutionrelative:13.12-27.12.2024_hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|c:\\users\\bohdan\\source\\repos\\13.12-27.12.2024_hw\\13.12-27.12.2024_hw\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|solutionrelative:13.12-27.12.2024_hw\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|c:\\users\\bohdan\\source\\repos\\13.12-27.12.2024_hw\\13.12-27.12.2024_hw\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|solutionrelative:13.12-27.12.2024_hw\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|solutionrelative:13.12-27.12.2024_hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|c:\\users\\bohdan\\source\\repos\\13.12-27.12.2024_hw\\13.12-27.12.2024_hw\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|solutionrelative:13.12-27.12.2024_hw\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|c:\\users\\bohdan\\source\\repos\\13.12-27.12.2024_hw\\13.12-27.12.2024_hw\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|solutionrelative:13.12-27.12.2024_hw\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|c:\\users\\bohdan\\source\\repos\\13.12-27.12.2024_hw\\13.12-27.12.2024_hw\\studio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63707667-5A07-4C72-B5DB-99CCE0B794E8}|13.12-27.12.2024_HW\\13.12-27.12.2024_HW.csproj|solutionrelative:13.12-27.12.2024_hw\\studio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Studio.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Studio.cs",
+              "RelativeDocumentMoniker": "13.12-27.12.2024_HW\\Studio.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Studio.cs",
+              "RelativeToolTip": "13.12-27.12.2024_HW\\Studio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:36:07.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "13.12-27.12.2024_HW\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Form1.Designer.cs",
+              "RelativeToolTip": "13.12-27.12.2024_HW\\Form1.Designer.cs",
+              "ViewState": "AQIAAGkBAAAAAAAAAAAAAHwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:09:40.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Game.cs",
+              "RelativeDocumentMoniker": "13.12-27.12.2024_HW\\Game.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Game.cs",
+              "RelativeToolTip": "13.12-27.12.2024_HW\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:36:35.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\MyDBContext.cs",
+              "RelativeDocumentMoniker": "13.12-27.12.2024_HW\\MyDBContext.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\MyDBContext.cs",
+              "RelativeToolTip": "13.12-27.12.2024_HW\\MyDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:37:51.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Genre.cs",
+              "RelativeDocumentMoniker": "13.12-27.12.2024_HW\\Genre.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Genre.cs",
+              "RelativeToolTip": "13.12-27.12.2024_HW\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:37:22.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Form1.cs",
+              "RelativeDocumentMoniker": "13.12-27.12.2024_HW\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Form1.cs",
+              "RelativeToolTip": "13.12-27.12.2024_HW\\Form1.cs",
+              "ViewState": "AQIAAMsBAAAAAAAAAAAIwO0BAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:35:48.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Form1.cs",
+              "RelativeDocumentMoniker": "13.12-27.12.2024_HW\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\13.12-27.12.2024_HW\\13.12-27.12.2024_HW\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "13.12-27.12.2024_HW\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:34:41.48Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

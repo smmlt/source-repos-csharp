@@ -1,0 +1,14 @@
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\06.09_сw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\06.09_сw.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\06.09_сw.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\06.09_сw.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\bin\Debug\net8.0\06.09_сw.exe
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\bin\Debug\net8.0\06.09_сw.deps.json
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\bin\Debug\net8.0\06.09_сw.runtimeconfig.json
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\bin\Debug\net8.0\06.09_сw.dll
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\bin\Debug\net8.0\06.09_сw.pdb
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\06.09_сw.dll
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\refint\06.09_сw.dll
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\06.09_сw.pdb
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\06.09_сw.genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\06.09_сw\06.09_сw\obj\Debug\net8.0\ref\06.09_сw.dll

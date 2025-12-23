@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+            body {
+                height: 100vh;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-family: Arial, sans-serif;
+            }
+
+            .question {
+                width: 300px;
+                background: #f5f5dc;
+                padding: 15px;
+                margin: 12px;
+                border-radius: 8px;
+            }
+
+            #result {
+                font-weight: bold;
+                margin-top: 12px;
+            }
+
+            input[type="button"] {
+                width: 60%;
+                display: block;
+                margin: 20px auto;
+                padding: 8px;
+                font-size: 18px;
+                border-radius: 6px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div id="questions"></div>
+            <input type="button" onclick="check()" value="Finish">
+        </form>
+        <div id="result"></div>
+    </body>
+    <script>
+        let questions = [
+            { text: 'How many letters are there in the word "Hello"?', options: [5, 2], correct: 5 },
+            { text: 'How many letters are there in the word "World"?', options: [5, 2], correct: 5 } 
+        ];
+
+        let container = document.getElementById('questions');
+        questions.forEach((q, index) => {
+            let div = document.createElement('div');
+            div.className = 'question';
+            div.innerHTML = `<p>${index + 1}) ${q.text}</p>`;
+            
+            q.options.forEach(opt => {
+                div.innerHTML += `<label>
+                    <input type="radio" name="q${index}" value="${opt}"> ${opt}
+                </label><br>`;
+            });
+
+            container.appendChild(div);
+        });
+
+        function check() {
+            let counter = 0;
+            questions.forEach((q, index) => {
+                let select = document.querySelector(`input[name="q${index}"]:checked`);
+                if (select && parseInt(select.value) === q.correct) {
+                    counter++;
+                }
+            });
+
+            document.getElementById('result').textContent = `You have ${counter} correct answers out of ${questions.length}.`;
+        }
+    </script>
+</html>

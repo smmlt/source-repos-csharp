@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Server_V4_05.02.2025_CW/1.0.0": {
+        "runtime": {
+          "Server_V4_05.02.2025_CW.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Server_V4_05.02.2025_CW/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\bin\Debug\net8.0\16.10_cw.exe
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\bin\Debug\net8.0\16.10_cw.deps.json
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\bin\Debug\net8.0\16.10_cw.runtimeconfig.json
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\bin\Debug\net8.0\16.10_cw.dll
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\bin\Debug\net8.0\16.10_cw.pdb
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\16.10_cw.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\16.10_cw.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\16.10_cw.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\16.10_cw.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\16.10_cw.dll
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\refint\16.10_cw.dll
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\16.10_cw.pdb
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\16.10_cw.genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\16.10_cw\16.10_cw\obj\Debug\net8.0\ref\16.10_cw.dll

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div class="form">
+        gg
+    </div>
+</body>
+<script>
+    function registerClick() {
+        let firstName = document.getElementById('firstName').value;
+        let secondName = document.getElementById('secondName').value;
+        let login = document.getElementById('login').value;
+        let password = document.getElementById('password').value;
+        let retype = document.getElementById('retype').value;
+        let email = document.getElementById('email').value;
+        let cellular = document.getElementById('cellular').value;
+        let code = document.getElementById('code').value;
+        let rulesChBox = document.getElementById('rulesChBox').checked;
+
+        if (!firstName || !secondName || !login || !password || !retype || !email || !cellular || !code || !rulesChBox) {
+            alert("All fields must be filled!");
+            return;
+        }
+
+        let isCorrect = true;
+        
+        const emailCheck = /[\w.-]{3,}@[\w.-]+\.[a-zA-Z]{2,}/;
+        if (!emailCheck.test(email)) {
+            isCorrect = false;
+            alert("Bad email!");
+        }
+
+        const passwordCheck = /(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}/;
+        if (!passwordCheck.test(password)) {
+            isCorrect = false;
+            alert("Bad password!");
+        }
+
+        if (password !== retype) {
+            isCorrect = false;
+            alert("Passwords are not the same!");
+        }
+        if (isCorrect) {
+            const date = new Date();
+            date.setDate(date.getDate() + 7);
+
+            document.cookie = `firstName=${firstName}; expires=${date.toUTCString()}; path=/`;
+            document.cookie = `secondName=${secondName}; expires=${date.toUTCString()}; path=/`;
+            document.cookie = `login=${login}; expires=${date.toUTCString()}; path=/`;
+            document.cookie = `email=${email}; expires=${date.toUTCString()}; path=/`;
+            document.cookie = `cellular=${cellular}; expires=${date.toUTCString()}; path=/`;
+            document.cookie = `code=${code}; expires=${date.toUTCString()}; path=/`;
+            document.cookie = `rulesChBox=${rulesChBox}; expires=${date.toUTCString()}; path=/`;
+
+            alert('Registration successful!');
+            displayWelcomeMessage({ firstName, secondName, login, email, cellular, code });
+        }
+    }
+    function displayWelcomeMessage(cookies) {
+        const welcomeHTML = 
+            <div class="welcome-message">
+                <h2>Welcome, ${cookies.firstName} ${cookies.secondName}!</h2>
+                <p>Login: ${cookies.login}</p>
+                <p>Email: ${cookies.email}</p>
+                <p>Cellular: ${cookies.cellular}</p>
+                <p>Code: ${cookies.code}</p>
+            </div>;
+        document.querySelector('.header').innerHTML = welcomeHTML;
+    }
+</script>
+</html>

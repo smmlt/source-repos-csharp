@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                text-align: center;
+                font-family: 'Arial', sans-serif;
+                color: #333;
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 3rem;
+                color: #ff69b4;
+                margin: 10px 0;
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Abracadabra, amor-ooh-na-na</h1>
+        <h1>Abracadabra, morta-ooh-ga-ga</h1>
+        <h1>Abracadabra, amor-ooh-na-na</h1>
+        <h1>In her tongue she said, "Death or love tonight"</h1>
+    </body>
+    <script>
+        // Задание 1
+        const shoppingList = [
+            { name: 'Молоко', quantity: 2, bought: false },
+            { name: 'Хлеб', quantity: 1, bought: true },
+            { name: 'Яблоки', quantity: 5, bought: false },
+            { name: 'Сыр', quantity: 1, bought: true },
+            { name: 'Масло', quantity: 3, bought: false }
+        ];
+
+        // 1
+        function displayShoppingList(list) {
+            list.sort(function(a, b) {
+                return a.bought - b.bought;
+            });
+
+            for (var i = 0; i < list.length; i++) {
+                var item = list[i];
+                console.log(item.name + ' (x' + item.quantity + ') - ' + (item.bought ? 'Куплено' : 'Не куплено'));
+            }
+        }
+
+        // Для задания 1
+        displayShoppingList(shoppingList);
+        console.log('-------------------------');
+
+//========================================================================================
+
+        // Задание 2
+        const receipt = [
+            { name: 'Apple', quantity: 3, price: 10 },
+            { name: 'Milk', quantity: 1, price: 25 },
+            { name: 'Bread', quantity: 2, price: 15 },
+            { name: 'Chocolate', quantity: 5, price: 20 }
+        ];
+
+        // 1
+        function printReceipt(items) {
+            console.log("Receipt:");
+            items.forEach(function(item) {
+                console.log(item.name + " x " + item.quantity + " - " + item.price + " UAH each");
+            });
+        }
+
+        // 2
+        function getTotalSum(items) {
+            return items.reduce(function(sum, item) {
+                return sum + item.quantity * item.price;
+            }, 0);
+        }
+
+        // 3
+        function getMostExpensiveItem(items) {
+            return items.reduce(function(maxItem, item) {
+                return (item.quantity * item.price > maxItem.quantity * maxItem.price) ? item : maxItem;
+            });
+        }
+
+        // 4
+        function getAveragePrice(items) {
+            const totalQuantity = items.reduce(function(sum, item) {
+                return sum + item.quantity;
+            }, 0);
+            const totalPrice = getTotalSum(items);
+            return (totalPrice / totalQuantity).toFixed(2);
+        }
+
+        // Для задания 2
+        printReceipt(receipt);
+        console.log('-------------------------');
+        console.log("Total sum:", getTotalSum(receipt), "UAH");
+        console.log('-------------------------');
+        console.log("Most expensive item:", getMostExpensiveItem(receipt));
+        console.log('-------------------------');
+        console.log("Average price per item:", getAveragePrice(receipt), "UAH");
+        console.log('-------------------------');
+        
+//========================================================================================
+
+        // Задание 3
+        const classrooms = [
+            { name: 'Room 1', seats: 15, faculty: 'Faculty of Computer Science' },
+            { name: 'Room 123', seats: 18, faculty: 'Faculty of Mathematics' },
+            { name: 'Room 243', seats: 12, faculty: 'Faculty of Physics' },
+            { name: 'Room 23', seats: 20, faculty: 'Faculty of Computer Science' },
+            { name: 'Room 54', seats: 16, faculty: 'Faculty of Economics' }
+        ];
+
+        // 1
+        function displayAllClassrooms() {
+            console.log('List of all classrooms: ');
+            for (var i = 0; i < classrooms.length; i++) {
+                var room = classrooms[i];
+                console.log(`${room.name} - ${room.seats} seats  - ${room.faculty}`);
+            }
+        }
+
+        // 2
+        function displayClassroomsByFaculty(facultyName) {
+            console.log(`Classrooms for the "${facultyName}": `);
+            var found = false;
+            for (var i = 0; i < classrooms.length; i++) {
+                var room = classrooms[i];
+                if (room.faculty === facultyName) {
+                    console.log(`${room.name} - ${room.seats} seats`);
+                    found = true;
+                }
+            }
+            if (!found) {
+                console.log('No classrooms found for this faculty');
+            }
+        }
+
+        // 4
+        function sortClassroomsBySeats() {
+            classrooms.sort(function(a, b) {
+                return a.seats - b.seats;
+            });
+            console.log('Classrooms sorted by seats: ');
+            displayAllClassrooms();
+        }
+
+        // 5
+        function sortClassroomsByName() {
+            classrooms.sort(function(a, b) {
+                if (a.name < b.name) {
+                    return -1;
+                }
+                if (a.name > b.name) {
+                    return 1;
+                }
+                return 0;
+            });
+            console.log('Classrooms sorted by name: ');
+            displayAllClassrooms();
+        }
+
+        // Для задания 3
+        displayAllClassrooms();
+        console.log('-------------------------');
+        displayClassroomsByFaculty('Faculty of Computer Science');
+        console.log('-------------------------');
+        sortClassroomsBySeats();
+        console.log('-------------------------');
+        sortClassroomsByName();
+    </script>
+</html>

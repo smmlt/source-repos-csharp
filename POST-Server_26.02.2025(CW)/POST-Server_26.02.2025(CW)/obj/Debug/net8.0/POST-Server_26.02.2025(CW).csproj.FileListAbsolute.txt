@@ -1,0 +1,14 @@
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\bin\Debug\net8.0\POST-Server_26.02.2025(CW).exe
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\bin\Debug\net8.0\POST-Server_26.02.2025(CW).deps.json
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\bin\Debug\net8.0\POST-Server_26.02.2025(CW).runtimeconfig.json
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\bin\Debug\net8.0\POST-Server_26.02.2025(CW).dll
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\bin\Debug\net8.0\POST-Server_26.02.2025(CW).pdb
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\POST-Server_26.02.2025(CW).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\POST-Server_26.02.2025(CW).AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\POST-Server_26.02.2025(CW).AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\POST-Server_26.02.2025(CW).csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\POST-Server_26.02.2025(CW).dll
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\refint\POST-Server_26.02.2025(CW).dll
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\POST-Server_26.02.2025(CW).pdb
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\POST-Server_26.02.2025(CW).genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\POST-Server_26.02.2025(CW)\POST-Server_26.02.2025(CW)\obj\Debug\net8.0\ref\POST-Server_26.02.2025(CW).dll

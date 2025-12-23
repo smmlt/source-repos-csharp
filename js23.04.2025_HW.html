@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather App</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #dbeafe;
+        }
+
+        .container {
+        width: 90%;
+        max-width: 500px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        }
+
+        .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        }
+
+        .header p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #2563eb;
+        text-shadow: 1px 1px 2px #93c5fd;
+        }
+
+        .header input {
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        outline: none;
+        }
+
+        .header button {
+        margin-left: 8px;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 6px;
+        background-color: #3b82f6;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        }
+
+        .header button:hover {
+        background-color: #2563eb;
+        }
+
+        .field {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        }
+
+        .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+        .icon {
+        width: 60px;
+        height: 60px;
+        }
+
+        #sity, #date {
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+        p {
+        color: #111827;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <p>CURRENT WEATHER</p>
+        <div>
+            <input type="text" id="city" placeholder="Enter city..." />
+            <button onclick="getWeather()">🔍</button>
+        </div>
+        </div>
+        <div class="field">
+        <div class="row">
+            <p id="sity"></p>
+            <p id="date"></p>
+        </div>
+        <div class="row">
+            <img id="icon" class="icon" src="" alt="" style="display: none;"/>
+            <p id="condition"></p>
+        </div>
+        <div class="row">
+            <p>Current: <span id="temperature"></span></p>
+            <p>Min: <span id="tempMin"></span></p>
+            <p>Max: <span id="tempMax"></span></p>
+        </div>
+        <div class="row">
+            <p>Wind Speed: <span id="wind"></span> m/s</p>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        var request;
+
+        if (window.XMLHttpRequest) {
+        request = new XMLHttpRequest();
+        } else {
+        request = new ActiveXObject('Microsoft.XMLHTTP');
+        }
+
+        function getWeather() {
+        const cityInput = document.getElementById('city').value.trim();
+        if (!cityInput) return;
+
+        request.open(
+            'GET',
+            `https://api.openweathermap.org/data/2.5/weather?appid=b9fc15a97047f657022f73ac2cc1bdf7&q=${cityInput}&units=metric`
+        );
+
+        request.onload = function () {
+            if (request.status == 200) {
+                var weather = JSON.parse(request.response);
+
+                document.getElementById('sity').textContent = weather.name;
+
+                const dateNow = new Date();
+                const dateToShow = `${dateNow.getDate()}.${dateNow.getMonth() + 1}.${dateNow.getFullYear()}`;
+                document.getElementById('date').textContent = dateToShow;
+
+                document.getElementById('condition').textContent = weather.weather[0].description;
+                
+                const iconCode = weather.weather[0].icon;
+                const iconElement = document.getElementById('icon');
+                iconElement.src = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+                iconElement.style.display = "block";
+
+                document.getElementById('temperature').textContent = Math.round(weather.main.temp) + "℃";
+                document.getElementById('tempMin').textContent = Math.round(weather.main.temp_min) + "℃";
+                document.getElementById('tempMax').textContent = Math.round(weather.main.temp_max) + "℃";
+                document.getElementById('wind').textContent = weather.wind.speed;
+            }
+        };
+
+        request.send();
+        }
+    </script>
+</body>
+</html>

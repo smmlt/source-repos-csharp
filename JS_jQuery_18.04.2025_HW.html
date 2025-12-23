@@ -1,0 +1,110 @@
+<html>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        .board {
+            width: 356px;
+            display: grid;
+            grid-template-columns: repeat(4, 80px);
+            grid-gap: 10px;
+            margin-top: 20px;
+            border-radius: 4px;
+            padding: 12px;
+        }
+
+        .card {
+            width: 80px;
+            height: 80px;
+            border: solid;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .hidden {
+            background-image: url('https://i.imgur.com/yJcGqbw.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: transparent;
+        }
+    </style>
+
+    <body>
+        <h1>Memory game</h1>
+        <button id="startBtn">Start</button>
+        <div id="board" class="board"></div>
+    </body>
+
+    <script>
+        symbols = ['❤','▲','■','★','❤','▲','■','★']
+        opened = []
+        matched = 0
+        playing = false
+
+        function mix(symbols) {
+            for (i = symbols.length - 1; i > 0; i--) {
+                j = Math.floor(Math.random() * (i + 1));
+                [symbols[i], symbols[j]] = [symbols[j], symbols[i]]
+            }
+        }
+
+        function showBoard() {
+            $('#board').empty()
+
+            mix(symbols)
+            symbols.forEach((symbol, index) => {
+                $('#board').append(`<div class="card hidden" data-symbol="${symbol}" data-index="${index}">${symbol}</div>`)
+            })
+        }
+
+        $(document).on('click', '#startBtn', function() {
+            showBoard()
+
+            if(!playing){
+                $(this).text('Finish')
+                playing = true
+                $('#board').css('border', '2px solid')
+            }
+            else{
+                $(this).text('Start')
+                playing = false
+                matched = 0
+                $('#board').empty()
+                $('#board').css('border', '')
+            }
+        });
+
+        $(document).on('click', '.card.hidden', function() {
+            if (opened.length >= 2) return
+
+            $card = $(this)
+            $card.removeClass('hidden')
+            opened.push($card)
+
+            if (opened.length == 2) {
+                [first, second] = opened
+                
+                if (first.data('symbol') == second.data('symbol')) {
+                    matched++
+                    opened = []
+
+                    if(matched >= 4){
+                        $('#board').empty()
+                        $('#board').css('border', '')
+                        $('#board').append('<div style="width: 100px; font-size: 24px; margin-top: 4px;">You won!</div>')
+                    }
+                }
+                else {
+                    setTimeout(() => {
+                        first.addClass('hidden')
+                        second.addClass('hidden')
+                        opened = []
+                    }, 2000)
+                }
+            }
+        })
+    </script>
+</html>

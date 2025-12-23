@@ -1,0 +1,11 @@
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\bin\Debug\net8.0\TextHelp.deps.json
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\bin\Debug\net8.0\TextHelp.dll
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\bin\Debug\net8.0\TextHelp.pdb
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\obj\Debug\net8.0\TextHelp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\obj\Debug\net8.0\TextHelp.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\obj\Debug\net8.0\TextHelp.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\obj\Debug\net8.0\TextHelp.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\obj\Debug\net8.0\TextHelp.dll
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\obj\Debug\net8.0\refint\TextHelp.dll
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\obj\Debug\net8.0\TextHelp.pdb
+C:\Users\Bohdan\source\repos\TextHelp\TextHelp\obj\Debug\net8.0\ref\TextHelp.dll

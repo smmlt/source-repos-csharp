@@ -1,0 +1,3 @@
+﻿  24.05_cw.cpp
+C:\Users\Bohdan\source\repos\24.05_cw\24.05_cw\24.05_cw.cpp(7,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  24.05_cw.vcxproj -> C:\Users\Bohdan\source\repos\24.05_cw\x64\Debug\24.05_cw.exe

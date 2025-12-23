@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bohdan\\source\\repos\\10.01.2025_hw\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{726CD430-172E-4B11-A49C-952C15B14BD4}|10.01.2025_hw\\10.01.2025_hw.csproj|c:\\users\\bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{726CD430-172E-4B11-A49C-952C15B14BD4}|10.01.2025_hw\\10.01.2025_hw.csproj|solutionrelative:10.01.2025_hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726CD430-172E-4B11-A49C-952C15B14BD4}|10.01.2025_hw\\10.01.2025_hw.csproj|c:\\users\\bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726CD430-172E-4B11-A49C-952C15B14BD4}|10.01.2025_hw\\10.01.2025_hw.csproj|solutionrelative:10.01.2025_hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726CD430-172E-4B11-A49C-952C15B14BD4}|10.01.2025_hw\\10.01.2025_hw.csproj|c:\\users\\bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726CD430-172E-4B11-A49C-952C15B14BD4}|10.01.2025_hw\\10.01.2025_hw.csproj|solutionrelative:10.01.2025_hw\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\Form1.cs",
+              "RelativeDocumentMoniker": "10.01.2025_hw\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\Form1.cs",
+              "RelativeToolTip": "10.01.2025_hw\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T14:18:13.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "10.01.2025_hw\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\Form1.Designer.cs",
+              "RelativeToolTip": "10.01.2025_hw\\Form1.Designer.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAUwDAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T14:05:28.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\Form1.cs",
+              "RelativeDocumentMoniker": "10.01.2025_hw\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\10.01.2025_hw\\10.01.2025_hw\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "10.01.2025_hw\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T14:01:31.475Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

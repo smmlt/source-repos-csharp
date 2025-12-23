@@ -1,0 +1,87 @@
+@model WebApplicationBlog.Models.ViewModels.Authors.PostViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_Layout";
+}
+
+<h1>Create</h1>
+
+<h4>PostModel</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data" method="post" id="form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Slug" class="control-label"></label>
+                <input asp-for="Slug" class="form-control"/>
+                <span asp-validation-for="Slug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control"/>
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Thumbnail" class="control-label"></label>
+                <input asp-for="Thumbnail" type="file" class="form-control" accept="image/*"/>
+                <span asp-validation-for="Thumbnail" class="text-danger"></span>
+                <small class="form-text text-muted">
+                    Upload a preview image for your post. Supported formats: JPG, PNG, GIF.
+                </small>
+            </div>
+            <div class="form-group">
+                <label asp-for="Content" class="control-label"></label>
+                <div id="quill-editor" style="height: 200px;"></div>
+                <input type="hidden" asp-for="Content" id="context"/>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="TagIds" class="control-label"></label>
+                <select multiple asp-for="TagIds" class="form-control" asp-items="ViewBag.Tags"></select>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input"
+                           asp-for="IsPublished"/> @Html.DisplayNameFor(model => model.IsPublished)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Style {
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet"/>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.min.js"></script>
+    <script>
+        var quill = new Quill('#quill-editor', {
+            theme: 'snow'
+        });
+
+        // Set initial content if editing
+        let contentInput = document.getElementById('context');
+        if (contentInput.value) {
+            quill.root.innerHTML = contentInput.value;
+        }
+
+        // On form submit, update hidden input with Quill content
+        document.getElementById('form').addEventListener('submit', function () {
+            contentInput.value = quill.root.innerHTML;
+        });
+    </script>
+}

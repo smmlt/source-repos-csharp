@@ -1,0 +1,3 @@
+﻿  22.05_hw.cpp
+C:\Users\Bohdan\source\repos\22.05_hw\22.05_hw\22.05_hw.cpp(66,1): warning C4715: 'Stack<int>::top': not all control paths return a value
+  22.05_hw.vcxproj -> C:\Users\Bohdan\source\repos\22.05_hw\x64\Debug\22.05_hw.exe

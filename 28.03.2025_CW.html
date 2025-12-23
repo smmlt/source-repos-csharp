@@ -1,0 +1,101 @@
+<html>
+    <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            form {
+                background: #f9f9f9;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            h1 {
+                font-size: 24px;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+
+            label {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            input, select {
+                font-size: 16px;
+                margin: 10px 0;
+                padding: 8px;
+                width: 100%;
+                max-width: 300px;
+            }
+
+            input[type="submit"] {
+                background: #007bff;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:hover {
+                background: #0056b3;
+            }
+    </style>
+    <body>
+        <h1>New contact:</h1>
+        <form action="" method="GET">
+            Name: <input type="text" placeholder="Input your name" name="formName">
+            <br>
+            Age: <input type="number" value="15" name="formAge">
+            <br>
+            <select name="formSelect">
+                <option value="Friend">Friend</option>
+                <option value="Family">Family</option>
+                <option value="Group">Group</option>
+            </select>
+            <br>
+            Favourite: <input type="checkbox" name="formCheck" value="1" checked>
+            <br>
+            <div id="mainDiv">
+                <div>
+                    Phone:
+                    <br>
+                    <input type="text" name="formPhone" placeholder="Input your phone">
+                    <select name="phoneType">
+                        <option value="1">Mobile</option>
+                        <option value="2">Home</option>
+                        <option value="3">Work</option>
+                    </select>
+                </div>
+            </div>
+
+            <input type="button" value="Add phone" onclick="add()">
+            <input type="submit" value="Save">
+        </form>
+    </body>
+    <script>
+        var counter = 0
+
+        function add() {
+            counter++
+            var f = mainDiv.children[0]
+            var newDiv = f.cloneNode(true)
+            console.log(newDiv)
+            newDiv.children[1].name = 'formPhone' + counter
+            newDiv.children[1].value = ''
+            newDiv.children[2].name = 'phoneType' + counter
+            mainDiv.appendChild(newDiv)
+        }     
+    </script>
+</html>

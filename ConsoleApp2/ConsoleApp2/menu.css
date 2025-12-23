@@ -1,0 +1,70 @@
+
+body {
+    background: #E0F7FA;
+}
+
+.menu {
+    width: 100%;
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #00BCD4;
+}
+
+    .menu a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+.menu1 {
+    width: calc(80% - 32px);
+    margin-right: 32px;
+}
+
+    .menu1 .menu1_0,
+    .menu1 .menu1_01 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+.menu_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+    width: 45%; /* Два блока на строку */
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.text {
+    font-size: 18px;
+    color: #000000;
+    width: 50%;
+}
+
+.photo {
+    width: 50%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    transition: background 0.5s ease;
+}
+
+.menu_block:hover .photo {
+    opacity: 0.8;
+}
+
+/* Hover эффекты */
+.menu_block:hover {
+    background-color: #48CAE4;
+}
+
+.trans {
+    transition: background 0.5s ease;
+}
+/* Hover эффекты END */
+

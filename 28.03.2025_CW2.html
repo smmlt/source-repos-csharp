@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Палитра цветов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        label {
+            padding: 6.5px;
+            border: 1px solid black;
+        }
+        .form-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .color-input {
+            width: 50px;
+            padding: 5px;
+        }
+        .add-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #color-palette {
+            margin-top: 20px;
+        }
+        #colors-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <label for="r">R:</label>
+        <input type="number" id="r" class="color-input" min="0" max="255" placeholder="0">
+        
+        <label for="g">G:</label>
+        <input type="number" id="g" class="color-input" min="0" max="255" placeholder="0">
+        
+        <label for="b">B:</label>
+        <input type="number" id="b" class="color-input" min="0" max="255" placeholder="0">
+        
+        <button class="add-button" onclick="addColor()">Add color</button>
+    </div>
+
+    <div id="colorBlock">
+        <div id="colorsList"></div>
+    </div>
+
+    <script>
+        function addColor() {
+            // Получаем значения из полей ввода
+            let r = document.getElementById('r').value;
+            let g = document.getElementById('g').value;
+            let b = document.getElementById('b').value;
+
+            // Проверяем, что все поля заполнены
+            if (r && g && b) {
+                // Добавляем новый цвет в палитру
+                let color = `rgb(${r}, ${g}, ${b})`;
+
+                // Создаем новый элемент для отображения цвета
+                let colorDiv = document.createElement('div');
+                colorDiv.style.backgroundColor = color;
+                colorDiv.style.width = '100px';
+                colorDiv.style.height = '100px';
+                colorDiv.style.margin = '10px';
+                colorDiv.style.display = 'inline-block';
+
+                // Добавляем элемент в список цветов
+                document.getElementById('colors-list').appendChild(colorDiv);
+
+                // Очищаем поля ввода после добавления
+                document.getElementById('r').value = '';
+                document.getElementById('g').value = '';
+                document.getElementById('b').value = '';
+            } else {
+                alert('Пожалуйста, заполните все поля!');
+            }
+        }
+    </script>
+
+</body>
+</html>

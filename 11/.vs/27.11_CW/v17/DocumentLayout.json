@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bohdan\\source\\repos\\27.11_CW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F888224D-D3F4-4E2D-90CE-6E3429916BBB}|27.11_CW\\27.11_CW.csproj|c:\\users\\bohdan\\source\\repos\\27.11_cw\\27.11_cw\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F888224D-D3F4-4E2D-90CE-6E3429916BBB}|27.11_CW\\27.11_CW.csproj|solutionrelative:27.11_cw\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F888224D-D3F4-4E2D-90CE-6E3429916BBB}|27.11_CW\\27.11_CW.csproj|c:\\users\\bohdan\\source\\repos\\27.11_cw\\27.11_cw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F888224D-D3F4-4E2D-90CE-6E3429916BBB}|27.11_CW\\27.11_CW.csproj|solutionrelative:27.11_cw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F888224D-D3F4-4E2D-90CE-6E3429916BBB}|27.11_CW\\27.11_CW.csproj|c:\\users\\bohdan\\source\\repos\\27.11_cw\\27.11_cw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F888224D-D3F4-4E2D-90CE-6E3429916BBB}|27.11_CW\\27.11_CW.csproj|solutionrelative:27.11_cw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\27.11_CW\\27.11_CW\\DBManager.cs",
+              "RelativeDocumentMoniker": "27.11_CW\\DBManager.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\27.11_CW\\27.11_CW\\DBManager.cs",
+              "RelativeToolTip": "27.11_CW\\DBManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:52:59.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\27.11_CW\\27.11_CW\\Form1.cs",
+              "RelativeDocumentMoniker": "27.11_CW\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\27.11_CW\\27.11_CW\\Form1.cs",
+              "RelativeToolTip": "27.11_CW\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:45:11.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\27.11_CW\\27.11_CW\\Form1.cs",
+              "RelativeDocumentMoniker": "27.11_CW\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\27.11_CW\\27.11_CW\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "27.11_CW\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:24:45.628Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

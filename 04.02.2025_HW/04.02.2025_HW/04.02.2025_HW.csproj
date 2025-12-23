@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_04._02._2025_HW</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GeometryLibrary1">
+      <HintPath>..\..\GeometryLibrary1\GeometryLibrary1\bin\Debug\net8.0\GeometryLibrary1.dll</HintPath>
+    </Reference>
+    <Reference Include="TextHelp">
+      <HintPath>..\..\TextHelp\TextHelp\bin\Debug\net8.0\TextHelp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

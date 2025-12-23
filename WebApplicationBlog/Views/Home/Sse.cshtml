@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Sse Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sse</h1>
+    
+    <div>
+        <h2> Public SSE</h2>
+        <div>
+            <input type="text" id="messagePublic" placeholder="Message" />
+            <button id="sendPublic" class="btn btn-primary">Send</button>
+        </div>
+        <ul id="ssePublic" class="list-group">
+
+        </ul>
+
+    </div>
+
+</div>
+
+@section Scripts{
+    <script>
+        
+        document.getElementById("sendPublic").addEventListener("click", function () {
+            const message = document.getElementById("messagePublic").value;
+            if (message) {
+                fetch("/msg/public", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(message)
+                })
+                .then(response => response.text())
+                .then(data => {
+                    console.log("Message sent:", data);
+                    document.getElementById("messagePublic").value = ""; // Clear input
+                })
+                .catch(error => console.error("Error sending message:", error));
+            }
+        });
+        
+        const ssePublic = document.getElementById("ssePublic");
+        
+        const addMessageToPublicList = (message) => {
+            const li = document.createElement("li");
+            li.className = "list-group-item";
+            li.textContent = message;
+            ssePublic.appendChild(li);
+        };
+        
+        document.addEventListener("DOMContentLoaded", function () {
+            const eventSourcePublic = new EventSource("/sse/public");
+            eventSourcePublic.onmessage = (event) => {
+                console.log("Public Stream:", event.data);
+                addMessageToPublicList(event.data);
+            };
+            
+            eventSourcePublic.onerror( (event) => {
+                console.error("Error:", event);
+            });
+            
+            eventSourcePublic.onopen( (event) => {
+                console.log("Connection opened:", event);
+                addMessageToPublicList("Connection opened");
+            })
+
+            // const eventSourceAuthorized = new EventSource("/sse/authorized");
+            // eventSourceAuthorized.onmessage = (event) => {
+            //     console.log("Authorized Stream:", event.data);
+            // };
+        });
+
+    </script>
+}

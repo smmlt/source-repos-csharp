@@ -1,0 +1,14 @@
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\bin\Debug\net8.0\generatedNumbers.exe
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\bin\Debug\net8.0\generatedNumbers.deps.json
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\bin\Debug\net8.0\generatedNumbers.runtimeconfig.json
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\bin\Debug\net8.0\generatedNumbers.dll
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\bin\Debug\net8.0\generatedNumbers.pdb
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\generatedNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\generatedNumbers.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\generatedNumbers.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\generatedNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\generatedNumbers.dll
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\refint\generatedNumbers.dll
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\generatedNumbers.pdb
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\generatedNumbers.genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\generatedNumbers\generatedNumbers\obj\Debug\net8.0\ref\generatedNumbers.dll

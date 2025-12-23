@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 98vh;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            align-items: center;
+            background: #FFDFC4;
+            padding: 24px;
+        }
+
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <form id="register">
+        <h1>Registration</h1>
+
+        <div style="width: 100%;">
+            <p>Email:</p>
+            <input type="text" id="email" style="width: 100%;">
+            <span class="error" id="emailError"></span><br>
+        </div>
+
+        <div style="width: 100%;">
+            <p>Password:</p>
+            <input type="password" id="password" style="width: 100%;">
+            <span class="error" id="passwordError"></span><br>
+        </div>
+
+        <div style="width: 100%;">
+            <p>Repeat:</p>
+            <input type="password" id="repeatPassword" style="width: 100%;">
+            <span class="error" id="repeatError"></span><br>
+        </div>
+
+        <button type="submit" onclick="signUpClick()">Sign Up</button>
+    </form>
+</body>
+
+<script>
+    function signUpClick() {
+        event.preventDefault()
+
+        email = document.getElementById('email').value
+        password = document.getElementById('password').value
+        repeatPassword = document.getElementById('repeatPassword').value
+
+        emailError = document.getElementById('emailError')
+        passwordError = document.getElementById('passwordError')
+        repeatError = document.getElementById('repeatError')
+
+        emailError.textContent = ''
+        passwordError.textContent = ''
+        repeatError.textContent = ''
+
+        isCorrect = true
+
+        emailCheck = /^[\w.-]{3,}@[\w.-]+\.[a-zA-Z]{2,}$/
+        if (!emailCheck.test(email)) {
+            emailError.textContent = 'Email error'
+            isCorrect = false
+        }
+
+        passwordCheck = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$/;
+        if (!passwordCheck.test(password)) {
+            passwordError.textContent = 'Passwor error'
+            isCorrect = false
+        }
+        if (password !== repeatPassword) {
+            repeatError.textContent = 'Passwords are not same'
+            isCorrect = false
+        }
+
+        if(isCorrect) {
+            alert('Sucsess!')
+        }
+    }
+    </script>
+</html>

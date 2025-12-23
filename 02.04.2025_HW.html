@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Button</title>
+    </head>
+    <body>
+        <h1>Chill</h1>
+    </body>
+    <script>
+        class Button {
+            constructor(width, height, text) {
+                this.width = width;
+                this.height = height;
+                this.text = text;
+            }
+
+            showBtn() {
+                document.write(`
+                    <button style="width: ${this.width}; height: ${this.height};">
+                        ${this.text}
+                    </button>
+                `);
+            }
+        }
+
+        class BootstrapButton extends Button {
+            constructor(width, height, text, color) {
+                super(width, height, text);
+                this.color = color;
+            }
+
+            showBtn() {
+                document.write(`
+                    <button style="width: ${this.width}; height: ${this.height}; background-color: ${this.color}">
+                        ${this.text}
+                    </button>
+                `);
+            }
+        }
+
+        var btn = new BootstrapButton("120px", "60px", "Chill", "yellow");
+        btn.showBtn();
+    </script>
+</html>

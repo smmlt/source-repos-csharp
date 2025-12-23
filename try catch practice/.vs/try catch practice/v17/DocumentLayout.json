@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bohdan\\source\\repos\\try catch practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABB0AC6-CB1D-4E17-8D11-F605BE3F0F89}|CreditCard\\CreditCard.csproj|c:\\users\\bohdan\\source\\repos\\try catch practice\\creditcard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABB0AC6-CB1D-4E17-8D11-F605BE3F0F89}|CreditCard\\CreditCard.csproj|solutionrelative:creditcard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B30CBF8-05F2-41F4-895B-C9184E97F0F5}|try catch practice\\try catch practice.csproj|c:\\users\\bohdan\\source\\repos\\try catch practice\\try catch practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B30CBF8-05F2-41F4-895B-C9184E97F0F5}|try catch practice\\try catch practice.csproj|solutionrelative:try catch practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\try catch practice\\CreditCard\\Program.cs",
+              "RelativeDocumentMoniker": "CreditCard\\Program.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\try catch practice\\CreditCard\\Program.cs",
+              "RelativeToolTip": "CreditCard\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T14:37:13.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bohdan\\source\\repos\\try catch practice\\try catch practice\\Program.cs",
+              "RelativeDocumentMoniker": "try catch practice\\Program.cs",
+              "ToolTip": "C:\\Users\\Bohdan\\source\\repos\\try catch practice\\try catch practice\\Program.cs",
+              "RelativeToolTip": "try catch practice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T14:12:51.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

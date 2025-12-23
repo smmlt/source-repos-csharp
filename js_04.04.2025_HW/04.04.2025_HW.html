@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Football</title>
+        <style>
+            body {
+                height: 100vh;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .field {
+                width: 100vw;
+                height: 100vh;
+                background-image: url('football_field.png');
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                overflow: hidden;
+            }
+
+            #ball {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                transition: 0.5s;
+                background-image: url('football.png');
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="field" onmousedown="moveBall(event)">
+            <div id="ball"></div>
+        </div>
+    </body>
+    <script>
+        function moveBall(e) {
+            const field = e.currentTarget;
+            const ball = document.getElementById("ball");
+            const rect = field.getBoundingClientRect();
+            const ballSize = 100;
+
+            let x = e.clientX - rect.left - ballSize / 2;
+            let y = e.clientY - rect.top - ballSize / 2;
+
+            x = Math.max(0, Math.min(x, rect.width - ballSize));
+            y = Math.max(0, Math.min(y, rect.height - ballSize));
+
+            ball.style.left = x + "px";
+            ball.style.top = y + "px";
+        }
+    </script>
+</html>

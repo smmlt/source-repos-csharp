@@ -1,0 +1,144 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Admin Tags</h1>
+    <ul id="tagsList">
+    </ul>
+    
+    <div>
+        <form name="tagForm" id="tagForm">
+            <div class="form-group">
+                <label for="tagName">Tag Name</label>
+                <input type="text" class="form-control" id="tagName" name="tagName" required>
+            </div>
+            <div class="form-group">
+                <label for=""></label>
+                <input type="text" class="form-control" id="tagSlug" name="tagSlug" placeholder="Tag Slug (optional)">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts 
+{
+<script>
+    
+    const tagsList = document.getElementById('tagsList');
+    const apiUrl = '/api/v1/admin/tags';
+    
+    let tags = [];
+    
+    const renderTagsList = () => {
+        tagsList.innerHTML = '';
+        tags.forEach(tag => {
+            renderTag(tag);
+        });
+    };
+    
+    const pushTag = (tag) => {
+        tags.push(tag);
+        renderTag(tag);
+    };
+    
+    const renderTag = (tag) => {
+            const li = document.createElement('li');
+            li.textContent = `${tag.name} (${tag.slug})`;
+            li.id = "TAG_ID_" + tag.id;
+            
+            const deleteButton = document.createElement('button');
+            deleteButton.textContent = 'Delete';
+            deleteButton.className = 'btn btn-danger btn-sm ml-2';
+            deleteButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                deleteTag(tag.id);
+            });
+            
+            li.appendChild(deleteButton);
+            tagsList.appendChild(li);
+    };
+    
+    const readTags = async () => {
+        try {
+            const response = await fetch(apiUrl);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            tags = await response.json();
+            renderTagsList();
+        } catch (error) {
+            console.error('Error fetching tags:', error);
+        }
+    };
+    
+    const createTag = async () => {
+        try {
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: document.getElementById('tagName').value,
+                    slug: document.getElementById('tagSlug').value || null
+                })
+            });
+            
+            console.log("Response", response);
+            
+            if (!response.ok) {
+                //let errorText = await response.text();
+                let errorJson = "noJson";
+                try {
+                    errorJson = await response.json();
+                } catch (e) {
+                    console.error("Failed to parse error JSON", e);
+                }
+                //console.log("ErrorText", errorText);
+                console.log("ErrorJson", errorJson);
+                
+                throw new Error('Network response was not ok');
+            }
+            const newTag = await response.json();
+            pushTag(newTag);
+            
+        } catch (error) {
+            console.error('Error creating tag:', error);
+        }
+    };
+    
+    const deleteTag = async (tagId) => {
+        try {
+            const response = await fetch(`${apiUrl}/${tagId}`, {
+                method: 'DELETE'
+            });
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            tags = tags.filter(tag => tag.id !== tagId);
+            const tagElement = document.getElementById(`TAG_ID_${tagId}`);
+            if (tagElement) {
+                tagElement.remove();
+            }
+            // renderTagsList();
+        } catch (error) {
+            console.error('Error deleting tag:', error);
+        }
+    };
+    
+    document.getElementById('tagForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        createTag();
+        this.reset(); // Reset the form after submission
+    });
+    
+    
+    readTags();
+    
+</script>
+}

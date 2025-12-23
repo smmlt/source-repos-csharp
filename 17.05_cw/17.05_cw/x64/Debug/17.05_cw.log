@@ -1,0 +1,4 @@
+﻿  17.05_cw.cpp
+C:\Users\Bohdan\source\repos\17.05_cw\17.05_cw\17.05_cw.cpp(107,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Bohdan\source\repos\17.05_cw\17.05_cw\17.05_cw.cpp(94,1): warning C4715: 'PriorityQueue<int>::top': not all control paths return a value
+  17.05_cw.vcxproj -> C:\Users\Bohdan\source\repos\17.05_cw\x64\Debug\17.05_cw.exe

@@ -1,0 +1,14 @@
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\bin\Debug\net8.0\try catch practice.exe
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\bin\Debug\net8.0\try catch practice.deps.json
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\bin\Debug\net8.0\try catch practice.runtimeconfig.json
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\bin\Debug\net8.0\try catch practice.dll
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\bin\Debug\net8.0\try catch practice.pdb
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\try catch practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\try catch practice.AssemblyInfoInputs.cache
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\try catch practice.AssemblyInfo.cs
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\try catch practice.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\try catch practice.dll
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\refint\try catch practice.dll
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\try catch practice.pdb
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\try catch practice.genruntimeconfig.cache
+C:\Users\Bohdan\source\repos\try catch practice\try catch practice\obj\Debug\net8.0\ref\try catch practice.dll

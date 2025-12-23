@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Введение в классы. Обработка исключений1", "Введение в классы. Обработка исключений1\Введение в классы. Обработка исключений1.csproj", "{5E977FBE-B257-48F6-AE70-6D291226BB09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E977FBE-B257-48F6-AE70-6D291226BB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E977FBE-B257-48F6-AE70-6D291226BB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E977FBE-B257-48F6-AE70-6D291226BB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E977FBE-B257-48F6-AE70-6D291226BB09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7283D67E-DD40-4AD2-8C27-7B18F1F89542}
+	EndGlobalSection
+EndGlobal

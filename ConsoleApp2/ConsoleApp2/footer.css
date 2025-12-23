@@ -1,0 +1,85 @@
+.footer {
+    width: 100%;
+    background: #0077B6;
+}
+
+    .footer .logo h1 {
+        color: #ffffff;
+    }
+
+    .footer .logo span {
+        color: #48CAE4;
+    }
+
+    .footer .navbtn_field {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        .footer .navbtn_field .navbtn_el {
+            width: 50%;
+        }
+
+    .footer .navbtn1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer a {
+        position: relative;
+        padding: 8px 16px;
+        overflow: hidden;
+        color: #ffffff;
+        transition: .5s;
+    }
+
+        .footer a .bottom_line {
+            position: absolute;
+            bottom: 0;
+            left: -100%;
+            height: 2px;
+            width: 100%;
+            background: #48CAE4;
+            transition: .5s;
+        }
+
+        .footer a:hover .bottom_line {
+            left: 0;
+        }
+
+
+        .footer a .top_line {
+            position: absolute;
+            top: 0;
+            right: -100%;
+            height: 2px;
+            width: 100%;
+            background: #48CAE4;
+            transition: .5s;
+        }
+
+        .footer a:hover .top_line {
+            right: 0;
+        }
+
+        .footer a:hover {
+            color: #023E8A;
+        }
+
+    .footer .navbtn_field .contact {
+        height: 100%;
+    }
+
+        .footer .navbtn_field .contact .numb {
+            color: #ffffff;
+            display: flex;
+            align-items: start;
+        }
+
+            .footer .navbtn_field .contact .numb p {
+                font-size: 20px;
+                margin-bottom: 50px;
+            }
