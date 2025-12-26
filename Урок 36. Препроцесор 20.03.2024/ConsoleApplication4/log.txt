@@ -1,0 +1,17 @@
+file:
+C:\Users\Kbodi\source\repos\Урок 36. Препроцесор 20.03.2024\ConsoleApplication4\ConsoleApplication4.cpp
+line
+71
+function:
+main
+file:
+C:\Users\Kbodi\source\repos\Урок 36. Препроцесор 20.03.2024\ConsoleApplication4\Header.h
+line
+7
+function: Hello
+file:
+C:\Users\Kbodi\source\repos\Урок 36. Препроцесор 20.03.2024\ConsoleApplication4\Map.h
+line
+7
+function: GoodBye
+....done

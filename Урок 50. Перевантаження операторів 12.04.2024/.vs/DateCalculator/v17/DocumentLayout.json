@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kbodi\\source\\repos\\DateCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA85D04-364A-4FA7-B56D-9483113B3E96}|DateCalculator\\DateCalculator.vcxproj|C:\\Users\\Kbodi\\source\\repos\\DateCalculator\\DateCalculator\\DateCalculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8DA85D04-364A-4FA7-B56D-9483113B3E96}|DateCalculator\\DateCalculator.vcxproj|solutionrelative:DateCalculator\\DateCalculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DateCalculator.cpp",
+              "DocumentMoniker": "C:\\Users\\Kbodi\\source\\repos\\DateCalculator\\DateCalculator\\DateCalculator.cpp",
+              "RelativeDocumentMoniker": "DateCalculator\\DateCalculator.cpp",
+              "ToolTip": "C:\\Users\\Kbodi\\source\\repos\\DateCalculator\\DateCalculator\\DateCalculator.cpp",
+              "RelativeToolTip": "DateCalculator\\DateCalculator.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-26T15:07:06.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

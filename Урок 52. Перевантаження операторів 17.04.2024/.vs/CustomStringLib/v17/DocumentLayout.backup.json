@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kbodi\\source\\repos\\CustomStringLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31EB344B-9D53-4F95-9B02-B690ED1DFB0E}|CustomStringLib\\CustomStringLib.vcxproj|C:\\Users\\Kbodi\\source\\repos\\CustomStringLib\\CustomStringLib\\CustomStringLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31EB344B-9D53-4F95-9B02-B690ED1DFB0E}|CustomStringLib\\CustomStringLib.vcxproj|solutionrelative:CustomStringLib\\CustomStringLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomStringLib.cpp",
+              "DocumentMoniker": "C:\\Users\\Kbodi\\source\\repos\\CustomStringLib\\CustomStringLib\\CustomStringLib.cpp",
+              "RelativeDocumentMoniker": "CustomStringLib\\CustomStringLib.cpp",
+              "ToolTip": "C:\\Users\\Kbodi\\source\\repos\\CustomStringLib\\CustomStringLib\\CustomStringLib.cpp*",
+              "RelativeToolTip": "CustomStringLib\\CustomStringLib.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-26T15:13:56.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
